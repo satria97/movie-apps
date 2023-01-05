@@ -28,7 +28,7 @@ const addMovieHandler = (request, h) => {
 			status: 'success',
 			message: 'Movie berhasil ditambahkan',
 			data: {
-				movieId: movies,
+				movies,
 			},
 		});
 		response.code(201);
